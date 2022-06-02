@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="JRC-Capucho">
+    <meta name="keyword" content="Agenda">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Agenda</h1>
+    <hr>
+    <form action="_php/form.php" method="post">
+        <div>
+            <label for="fname"> Primeiro Nome: </label>
+                <input type="text" id="fname" name="fname" placeholder="Charlie" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="lname"> Ultimo Nome: </label>
+                <input type="text" id="lname" name="lname" placeholder="Brown">
+         </div>
+        <br>
+
+        <div>
+            <label for="nickname"> Apelido: </label>
+                <input type="text" id="nickname" name="nickname" placeholder="Zeca Urubu">
+        </div>
+        <br>
+
+        <div>
+            <label for="gender"> Orientação sexual: </label>
+                <input type="radio" id="gender" name="gender" value="Homem">Homem
+                <input type="radio" id="gender" name="gender" value="Mulher">Mulher
+                <input type="radio" id="gender" name="gender" value="Outros">Outros
+        </div>
+        <br>
+
+        <div>
+            <label for="company"> Empresa: </label>
+                <input type="text" id="company" name="company">
+        </div>
+        <br>
+
+        <div>
+            <label for="phone"> Telefone: </label>
+                <input type="tel" id="pnumber" name="pnumber" placeholder="(xx) x xxxx-xxxx" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="email"> Email: </label>
+                <input type="email" id="email" name="email" placeholder="nome@gamil.com" required>
+        </div>
+            <br>
+
+        <div>
+            <label for="address"> Endereço: </label>
+                <input type="text" id="address" name="address" placeholder="Rua xxx nºxx">
+        </div>
+        <br>
+        
+        <div>
+            <label for="birthday"> Data de nascimento: </label>
+                <input type="date" id="birthday" name="birthday">
+        </div>
+        <br>
+
+        <div>
+            <label for="relationship"> Relação: </label>
+                <select id="relationship" name="relationship">
+                    <option value="Assistente"> Assistente </option>
+                    <option value="Esposo"> Esposo(a) </option>
+                    <option value="Filho(a)"> Filho(a) </option>
+                    <option value="Irmão"> Irmão </option>
+                    <option value="Mãe"> Mãe </option>
+                    <option value="Pai"> Pai </option>
+                    <option value="Parente"> Parente </option>
+                    <option value="Socio"> Socio </option>
+                </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="note"> Notação: </label>
+                <input type="text" id="note" name="note">
+        </div>
+        <br>
+
+        <input type="submit">
+            
+</form>
+
+</body>
+</html>

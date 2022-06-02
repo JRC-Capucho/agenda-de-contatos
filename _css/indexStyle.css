@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(78,64,78);
+}
+
+#login {
+    background: rgb(179,116,0);
+    border-style: ridge;
+    border-radius: 5px;
+    border: 10px;
+    padding: 70px;
+    margin: 120px 500px 100px 500px ;
+    width: 400px;
+}
+
+
+#username{
+    font-family: Monospace;
+    font-size: 15pt;
+    width: 400px;
+}
+
+#password{
+    font-family: Monospace;
+    font-size: 15pt;
+    width: 400px;
+}
+
+
+label {
+    text-align: center;
+    font-family: Monospace, Helvetica, "Times New Roman", Arial, sans-serif;
+    font-size: 20pt;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 80px;
+    font-family: Monospace, Helvetica, "Times New Roman", Arial, sans-serif;
+    font-size: 30pt;
+}
+
+hr{
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+#entrar{
+    margin-left: 160px;
+    font-family: Monospace, Helvetica,"Times New Roman", Arial, sans-serif;
+    font-size: 14pt;
+    margin-right: 500px;
+    text-align: 0px 100px 0px 0px;
+}
